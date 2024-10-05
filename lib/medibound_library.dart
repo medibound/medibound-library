@@ -9,6 +9,8 @@ export 'src/types.dart';
 export 'src/data-ui.dart';
 export 'src/components.dart';
 
+export 'src/res/Functions.dart';
+
 
 Future<void> initialize() async {
   await Firebase.initializeApp(
